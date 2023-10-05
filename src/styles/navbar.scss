@@ -1,0 +1,19 @@
+.navbar {
+    height: 120px;
+    
+    background-color: gray;
+    padding: 10px;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1440px;
+        margin: 0 auto;
+
+        .logo {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
