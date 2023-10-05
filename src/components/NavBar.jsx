@@ -1,9 +1,11 @@
 import { Link, NavLink } from "react-router-dom";
+import "../styles/navbar.scss";
+
 const NavBar = () => {
   return (
     <>
       <div className="navbar">
-        <div className="navbar-container">
+        <nav>
           <Link to={"/"}>
             <img
               className="logo"
@@ -36,13 +38,19 @@ const NavBar = () => {
           </ul>
           <div className="actions">
             <button className="search">
-                <img src="https://www.iconbolt.com/iconsets/anron-duotone/search.svg" alt="search" />
+              <img
+                src="https://www.iconbolt.com/iconsets/anron-duotone/search.svg"
+                alt="search"
+              />
             </button>
             <button className="theme-togle">
-                <img src="https://www.iconbolt.com/iconsets/anron-duotone/sun.svg" alt="theme" />
+              <img
+                src="https://www.iconbolt.com/iconsets/anron-duotone/sun.svg"
+                alt="theme"
+              />
             </button>
           </div>
-        </div>
+        </nav>
       </div>
     </>
   );
