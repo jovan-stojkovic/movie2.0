@@ -1,3 +1,6 @@
+//STYLES
+import './styles/index.scss'
+
 const App = () => {
   return <div>hello world!</div>;
 };
